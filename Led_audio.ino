@@ -5,10 +5,10 @@ Only thing that needs to be adjusted is the "num_leds", "brightness", and "sensi
 
 #include <FastLED.h>
 
-#define num_leds 60
+#define num_leds 100
 #define pin 6
-#define brightness 50     // can set 0-255
-#define sensitivity 5     // can set 0-10, recommended at 5
+#define brightness 100     // can set 0-255
+#define sensitivity 7     // can set 0-10, recommended at 5
 
 CRGB leds[num_leds];
 
